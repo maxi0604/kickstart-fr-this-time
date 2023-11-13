@@ -3,9 +3,11 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-  { 'kaarmu/typst.vim',
+  {
+    'kaarmu/typst.vim',
     ft = "typst",
     lazy = false
   },
   { 'axelf4/vim-strip-trailing-whitespace' },
+  { "echasnovski/mini.animate", config = true }
 }
