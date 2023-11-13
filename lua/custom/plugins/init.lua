@@ -9,5 +9,5 @@ return {
     lazy = false
   },
   { 'axelf4/vim-strip-trailing-whitespace' },
-  { "echasnovski/mini.animate", config = true }
+  -- { "echasnovski/mini.animate", config = true }
 }
