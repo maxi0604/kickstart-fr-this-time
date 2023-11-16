@@ -4,6 +4,8 @@ return {
     local splashes = {
       "pwease don't pwess :q! on me👉👈",
       "The One True Text Editor",
+      "The One Editor To Rule Them All",
+      "make your life more efficient. 10 finger typing",
       "wishing it were emacs",
       "never :q!"
     }
