@@ -182,7 +182,7 @@ require('lazy').setup({
       },
     },
     dependencies = {
-      { 'maxi0604/music.nvim', dev = true, config = true, lazy = false }
+      -- { 'maxi0604/music.nvim', dev = true, config = true, lazy = false }
     }
   },
 

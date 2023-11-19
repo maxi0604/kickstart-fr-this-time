@@ -9,5 +9,4 @@ return {
     lazy = false
   },
   { 'axelf4/vim-strip-trailing-whitespace' },
-  { 'maxi0604/music.nvim', dev = true, config = true, lazy = false }
 }
