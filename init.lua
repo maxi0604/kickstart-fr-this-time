@@ -176,7 +176,7 @@ require('lazy').setup({
         lualine_a = {'mode'},
         lualine_b = {'branch', 'diff', 'diagnostics'},
         lualine_c = {'filename'},
-        lualine_x = {"require('music').default_artist() .. ' - ' .. require('music').default_title()", 'require("music").default_bar()', 'encoding', 'fileformat', 'filetype'},
+        lualine_x = {"require('music').info()", 'encoding', 'fileformat', 'filetype'},
         lualine_y = {'progress'},
         lualine_z = {'location'}
       },
