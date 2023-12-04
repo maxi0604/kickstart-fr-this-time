@@ -9,4 +9,9 @@ return {
     lazy = false
   },
   { 'axelf4/vim-strip-trailing-whitespace' },
+  {
+    "NoahTheDuke/vim-just",
+    event = { "BufReadPre", "BufNewFile" },
+    ft = { "\\cjustfile", "*.just", ".justfile" },
+  },
 }
