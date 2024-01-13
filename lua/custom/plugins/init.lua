@@ -14,5 +14,6 @@ return {
     event = { "BufReadPre", "BufNewFile" },
     ft = { "\\cjustfile", "*.just", ".justfile" },
   },
-  { "JuliaEditorSupport/julia-vim", lazy = false }
+  { "JuliaEditorSupport/julia-vim", lazy = false },
+  -- { "mrcjkb/rustaceanvim", ft = "rust" }
 }
