@@ -15,5 +15,11 @@ return {
     ft = { "\\cjustfile", "*.just", ".justfile" },
   },
   { "JuliaEditorSupport/julia-vim", lazy = false },
+  {
+    'stevearc/oil.nvim',
+    opts = {},
+    -- Optional dependencies
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+  }
   -- { "mrcjkb/rustaceanvim", ft = "rust" }
 }
