@@ -10,6 +10,15 @@ return {
   },
   { 'axelf4/vim-strip-trailing-whitespace' },
   {
+    "folke/trouble.nvim",
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    opts = {
+      -- your configuration comes here
+      -- or leave it empty to use the default settings
+      -- refer to the configuration section below
+    },
+  },
+  {
     "NoahTheDuke/vim-just",
     event = { "BufReadPre", "BufNewFile" },
     ft = { "\\cjustfile", "*.just", ".justfile" },
@@ -20,6 +29,14 @@ return {
     opts = {},
     -- Optional dependencies
     dependencies = { "nvim-tree/nvim-web-devicons" },
-  }
+  },
+  {
+  'nanozuki/tabby.nvim',
+  event = 'VimEnter',
+  dependencies = 'nvim-tree/nvim-web-devicons',
+  config = function()
+    -- configs...
+  end,
+}
   -- { "mrcjkb/rustaceanvim", ft = "rust" }
 }
