@@ -4,6 +4,9 @@
 -- See the kickstart.nvim README for more information
 return {
   {
+    cmd = "KeysToggle",
+    'tamton-aquib/keys.nvim' },
+  {
     'kaarmu/typst.vim',
     ft = "typst",
     lazy = false
