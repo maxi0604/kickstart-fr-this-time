@@ -2,12 +2,10 @@ return {
   {
     "nvimdev/lspsaga.nvim",
     event = "LspAttach",
-    lazy = false,
     config = function()
       require("lspsaga").setup({})
 
       local keymap = vim.keymap.set
-
       -- LSP finder - Find the symbol's definition
       -- If there is no definition, it will instead be hidden
       -- When you use an action in finder like "open vsplit",
